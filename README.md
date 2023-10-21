@@ -1,52 +1,28 @@
+# FIFA Player Data Analysis
 
-# FIFA Players Data Analysis
+This project involves the analysis of FIFA player data using Python and pandas. The dataset used in this project contains information about FIFA players, including their age, club, nationality, skill moves, value, height, and weight.
 
-This project involves the analysis of FIFA player data, including data extraction, filtering, and basic statistics. The dataset used in this project contains information about FIFA players, such as their age, club, nationality, skill moves, value, height, and weight.
+## Assignment Tasks
 
-## Table of Contents
+1. **Remove Space in Column Labels:** We removed spaces between column labels and added underscores.
 
-- [Overview](#overview)
-- [Data Operations](#data-operations)
-  - [Loading the Data](#loading-the-data)
-  - [Filtering Players by Age](#filtering-players-by-age)
-  - [Filtering Players by Value](#filtering-players-by-value)
-  - [Filtering Players by Skill Moves](#filtering-players-by-skill-moves)
-  - [Getting the Record of Neymar Jr](#getting-the-record-of-neymar-jr)
-  - [Country-Wise Averages](#country-wise-averages)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
+2. **Remove ID Column:** We removed the "ID" column from the dataset.
 
+3. **Display FC Barcelona Data:** We displayed the data of FC Barcelona players.
 
-## Overview
+4. **Players Over 30:** We fetched players whose age is greater than 30 and counted how many of them are in the dataset.
 
-This project is focused on working with FIFA player data to perform various data analysis tasks using Python and pandas. The operations covered in this README include filtering players based on different criteria, retrieving specific player records, and calculating country-wise averages of player characteristics.
+5. **Preferred Foot Pie Plot:** We created a pie plot to show the distribution of preferred foot among players and provided insights based on the chart.
 
-## Data Operations
+6. **Young German Players:** We selected players from Germany whose age is less than 20.
 
-### Loading the Data
+7. **Player Value Filtering:** We selected players whose "Value" is greater than 50,000 and less than 110,000.
 
-The dataset used in this project is loaded from an external source. We read the data using the pandas library to perform various operations on it.
+8. **Skillful Players:** We selected players with a skill rating of 5.0.
 
-### Filtering Players by Age
+9. **Neymar Jr's Record:** We fetched the record of Neymar Jr.
 
-We filter players based on their age, selecting players younger than 20 and older than 30.
-
-### Filtering Players by Value
-
-We filter players based on their market value, selecting players whose value falls within a specified range.
-
-### Filtering Players by Skill Moves
-
-We filter players based on their skill moves, selecting players with a skill rating of 5.0.
-
-### Getting the Record of Neymar Jr
-
-We retrieve the record of the player "Neymar Jr" from the dataset.
-
-### Country-Wise Averages
-
-We calculate and display country-wise averages for player height and weight.
+10. **Country-Wise Averages:** We calculated and displayed country-wise average height and weight of players.
 
 ## Installation
 
@@ -54,16 +30,3 @@ To run this project, you need Python and the pandas library installed. You can i
 
 ```bash
 pip install pandas
-```
-
-## Usage
-
-You can use this project to perform data analysis on FIFA player data. Each data operation mentioned in this README is demonstrated with code snippets for your reference.
-
-## Contributing
-
-Contributions to this project are welcome. If you would like to contribute, please follow the guidelines provided in the CONTRIBUTING.md file.
-
-
-
-You can copy and paste this text into a file named "README.md" for your project and then customize it with specific details about your FIFA player data analysis project.
