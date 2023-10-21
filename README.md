@@ -1,3 +1,4 @@
+
 # FIFA Players Data Analysis
 
 This project involves the analysis of FIFA player data, including data extraction, filtering, and basic statistics. The dataset used in this project contains information about FIFA players, such as their age, club, nationality, skill moves, value, height, and weight.
@@ -15,7 +16,7 @@ This project involves the analysis of FIFA player data, including data extractio
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 
@@ -53,3 +54,16 @@ To run this project, you need Python and the pandas library installed. You can i
 
 ```bash
 pip install pandas
+```
+
+## Usage
+
+You can use this project to perform data analysis on FIFA player data. Each data operation mentioned in this README is demonstrated with code snippets for your reference.
+
+## Contributing
+
+Contributions to this project are welcome. If you would like to contribute, please follow the guidelines provided in the CONTRIBUTING.md file.
+
+
+
+You can copy and paste this text into a file named "README.md" for your project and then customize it with specific details about your FIFA player data analysis project.
